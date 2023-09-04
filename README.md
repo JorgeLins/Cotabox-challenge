@@ -1,6 +1,6 @@
 # cotabox-challenge
 
-Desafio técnico para a vaga de Desenvolvedor Full Stack @ Cotabox
+Desafio técnico para a vaga de Desenvolvedor Full Stack @Cotabox
 
 ## Sumário
 
