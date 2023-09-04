@@ -37,8 +37,8 @@ Desafio técnico para a vaga de Desenvolvedor Full Stack @ Cotabox
 
 ### Features
 - Autenticação de usuário: Os usuários podem se registrar e fazer login para acessar o seu projeto.
-- Registro de Participação: Usuários autenticados podem registrar participantes informando nome, sobrenome e a participação daquele usuario.
-- Visualização de Dados: O aplicativo exibe uma tabela mostrando os dados e participação do usuario, ao lado mostra um gráfico de rosca para fornecer aos usuários uma representação visual de suas participações.
+- Registro de Participação: Usuários autenticados podem registrar participantes informando nome, sobrenome e a participação daquele usuário.
+- Visualização de Dados: O aplicativo exibe uma tabela mostrando os dados e participação do usuário, ao lado mostra um gráfico de rosca para fornecer aos usuários uma representação visual de suas participações.
 
 
 ### Tecnologias Utilizadas
@@ -68,7 +68,7 @@ Desafio técnico para a vaga de Desenvolvedor Full Stack @ Cotabox
 
 
 ### Testes
-
+- Infelizmente não consegui adicionar os testes unitários que eu pretendia.
 
 ### Uso
 - Registre-se ou faça login no aplicativo.
