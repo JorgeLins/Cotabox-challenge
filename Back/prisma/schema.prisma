@@ -1,6 +1,7 @@
 // This is your Prisma schema file,
 // learn more about it in the docs: https://pris.ly/d/prisma-schema
 
+
 generator client {
   provider = "prisma-client-js"
 }
@@ -22,9 +23,10 @@ model Participant{
   participation Int
 }
 
+
 model User {
-  id String @id @default(uuid()) @map("_id")
-  username String @unique
+  id String @id @default(auto()) @map("_id") @db.ObjectId
+  username String
   email String @unique
   password String
   projectName String

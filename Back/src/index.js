@@ -1,10 +1,11 @@
-
+const { PrismaClient } = require('@prisma/client');
 const express = require('express')
+const cookieParser = require('cookie-parser')
+require('dotenv').config()
 const app = express()
 const port = 3001
 
-// const spendingRouter = require('./routes/spending-routes')
-// require('./database/spending-db')
+const prisma = new PrismaClient()
 const cors = require('cors');
 
 app.use(cors({
@@ -12,12 +13,19 @@ app.use(cors({
 }));
  
 app.use(express.json());
+app.use(express.urlencoded({extended: true}))
+app.use(cookieParser())
+
+const userRouter = require('./routes/userRoutes.js')
+const participantRouter = require('./routes/participantRoutes.js')
 
 
-// app.use('/spending', spendingRouter)
+app.use('/user', userRouter)
+app.use('/participant', participantRouter)
 
-// require('./routes/spending-routes')(app);
 
 app.listen(port, () => {
+
+  console.log()
   console.log(`Iniciado na porta ${port}`)
 })
