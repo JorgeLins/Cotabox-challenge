@@ -57,13 +57,14 @@ Desafio técnico para a vaga de Desenvolvedor Full Stack @ Cotabox
     - O backend da aplicação teve seu deploy na Render e pode ser acessado por esse dominio: https://cotabox-back.onrender.com
     - O frontend da aplicação foi upado na vercel e pode ser acessado por esse dominio: https://cotabox-front-gray.vercel.app/
 
-### Instalação
+### Instalação/Inicialização
 - Clone o repositório em sua máquina local.
 - Frontend
     - npm install
     - npm run serve
 - Backend(caso queira rodar localmente)
-  
+    - npm install
+    - npm start
 
 
 ### Testes
