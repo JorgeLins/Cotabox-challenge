@@ -1,6 +1,6 @@
 # cotabox-challenge
 
-Desafio técnico para a vaga de Desenvolvedor Full Stack @ Cotabox
+Desafio técnico para a vaga de Desenvolvedor Full Stack @Cotabox
 
 ## Sumário
 
@@ -54,7 +54,7 @@ Desafio técnico para a vaga de Desenvolvedor Full Stack @ Cotabox
     - MongoDB
     - JWT
 - Deployment
-    - O backend da aplicação teve seu deploy na Render e pode ser acessado por esse dominio: https://cotabox-back.onrender.com
+    - O backend da aplicação teve seu deploy na Render e pode ser acessado por esse dominio(pode ficar off as vezes, por estar usando o free trial): https://cotabox-back.onrender.com
     - O frontend da aplicação foi upado na vercel e pode ser acessado por esse dominio: https://cotabox-front-gray.vercel.app/
 
 ### Instalação/Inicialização
