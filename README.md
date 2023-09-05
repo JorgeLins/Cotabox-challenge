@@ -56,6 +56,8 @@ Desafio técnico para a vaga de Desenvolvedor Full Stack @Cotabox
 - Deployment
     - O backend da aplicação teve seu deploy na Render e pode ser acessado por esse dominio(pode ficar off as vezes, por estar usando o free trial): https://cotabox-back.onrender.com
     - O frontend da aplicação foi upado na vercel e pode ser acessado por esse dominio: https://cotabox-front-gray.vercel.app/
+- Aviso
+    -Por causa do link do render ser instavel pelo free trial, no codigo desse repositorio do front, o link para a api ta com o localhost, enquanto no link da vercel continua com a api do Render. 
 
 ### Instalação/Inicialização
 - Clone o repositório em sua máquina local.
