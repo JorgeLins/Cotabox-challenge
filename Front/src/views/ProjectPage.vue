@@ -67,7 +67,7 @@ export default {
 
         getProjectName() {
             axios
-                .get(`https://cotabox-back.onrender.com/user/${this.id}`)
+                .get(`http://localhost:3001/user/${this.id}`)
                 .then((res) => {
                     console.log(res.data.projectName);
                     this.projectName = res.data.projectName;
@@ -79,7 +79,7 @@ export default {
         },
         getAllParticipants() {
             axios
-                .get(`https://cotabox-back.onrender.com/participant/${this.id}`)
+                .get(`http://localhost:3001/participant/${this.id}`)
                 .then((res) => {
                     console.log(res.data);
                     this.allParticipants = res.data
@@ -92,7 +92,7 @@ export default {
                 })
         },
         deleteMethod(id){
-        axios.delete(`https://cotabox-back.onrender.com/participant/${id}`).then((res) => {
+        axios.delete(`http://localhost:3001/participant/${id}`).then((res) => {
             if(res.status === 200){
                 this.getAllParticipants()
             }

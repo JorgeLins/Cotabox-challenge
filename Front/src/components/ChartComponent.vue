@@ -82,7 +82,7 @@ export default {
         },
     async getAllParticipants() {
        await axios
-            .get(`https://cotabox-back.onrender.com/participant/${this.id}`)
+            .get(`http://localhost:3001/participant/${this.id}`)
             .then((res) => {
                 if (res.data.length > 0) {
                     this.updateChartData(res.data)

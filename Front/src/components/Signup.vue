@@ -39,7 +39,7 @@ export default {
     },
 
     postSignupMethod() {
-      axios.post("https://cotabox-back.onrender.com/user/signup", this.signupData).then((res) => {
+      axios.post("http://localhost:3001/user/signup", this.signupData).then((res) => {
         console.log(res.data);
         console.log(res);
         if (res.status === 200) {

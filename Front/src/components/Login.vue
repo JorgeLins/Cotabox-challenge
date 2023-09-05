@@ -47,7 +47,7 @@ export default {
     },
     postLoginMethod() {
       console.log("entrou");
-      axios.post("https://cotabox-back.onrender.com/user/login", this.loginData).then((res) => {
+      axios.post("http://localhost:3001/user/login", this.loginData).then((res) => {
           console.log(res.data);
           console.log(res);
           localStorage.setItem('access_token', res.data.token)

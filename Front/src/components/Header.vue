@@ -65,7 +65,7 @@ export default {
     },
     createParticipant() {
 
-      axios.post("https://cotabox-back.onrender.com/participant", this.participantsData, {headers: {Authorization: `Bearer ${this.token}`}}).then((res) => {
+      axios.post("http://localhost:3001/participant", this.participantsData, {headers: {Authorization: `Bearer ${this.token}`}}).then((res) => {
           console.log(res.data);
           console.log(res);
           if(res.status === 200) {
@@ -80,7 +80,7 @@ export default {
         });
     },
     logout(){
-      axios.post("https://cotabox-back.onrender.com/user/logout").then((res) => {
+      axios.post("http://localhost:3001/user/logout").then((res) => {
         if(res.data.sucess === true){
           localStorage.clear('access_token')
           localStorage.clear('userId')
